@@ -1,0 +1,72 @@
+/* Large devices (desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .header ul.navbar-nav li.nav-item a {
+         padding: 10px 18px;
+    }  
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .choose-area{
+        text-align: center;
+    }
+    .first-choose-side {
+        margin-bottom: 40px;
+    }
+    .email-btn a{
+        padding:  10px 8px;
+    } 	
+}
+
+/* Moblie devices (mobile, 0px to 768px) */
+
+@media only screen and (max-width: 767px) { 
+    .footer-links {
+        text-align: center;
+    }
+    .copyright p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .email-btn a{
+        padding:  10px 8px;
+    } 
+    .choose-area{
+        text-align: center;
+    }
+    .first-choose-side {
+        margin-bottom: 40px;
+    }
+    .contact-area {
+        text-align: center;
+    }
+    .promise-area-right{
+        padding-left: 0;
+    }
+}
+
+
+/* Wide Mobile Layout: (480px to 767px) */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+} 
+
+
+/* 
+
+	** Quick Start Pack To-DO list **
+
+    1. responsive brakpoint
+    2. devide all js offline
+    3. push css all link
+    4. w3validator check
+    5. push github 
+    6. create documentation on github
+
+
+ */

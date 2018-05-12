@@ -1,0 +1,197 @@
+$primary-bg : #57614e;
+$link-clr : #b8c6ac;
+$white : #fff;
+$primary-fz : 14px; 
+$heading-fz : 25px;
+$primary-color : #dbdbdb;
+$background : #e5e5e5;
+$heading-color: #626262;
+
+body{
+    background: $background;
+}
+header.header{
+    background: $primary-bg ;
+}
+
+.header{
+    ul.navbar-nav{
+        li.nav-item{
+            a{
+                color: $link-clr;
+                transition: 0.3s;
+                padding: 10px 25px;
+                &:hover{
+                    color : red;
+                }
+            }
+            
+        }
+    }
+}
+h1.lawfirm-text-top{
+    color: $white;
+    font-size: $heading-fz;
+}
+h3.lawfirm-text-bottom{
+    font-size: $primary-fz;
+    color: $primary-color;
+}
+.banner-content .banner-img{
+    background: url(../img/firm-img.jpg) no-repeat scroll center center / cover;
+   
+}
+.promise-area {
+     background: $background ;
+}
+.promise-area-left {
+    padding-right: 10px;
+    padding-top: 33px;
+    padding-bottom: 43px;
+}
+.promise-area-right{
+    padding-top: 33px;
+    padding-bottom: 43px;
+}
+.promise-area-left p{
+    font-size: $primary-fz ;
+    margin: 0;
+}
+.first-choose-side h5{
+    text-transform: uppercase;
+}
+.choose-area h2 {
+    color: $heading-color;
+    text-transform: uppercase;
+    font-size: $heading-fz;
+    margin-bottom: 25px;
+}
+.promise-heading h1{
+    font-size: $heading-fz;
+}
+.choose-area{
+     background: $background ;
+}
+.first-choose-side {
+    img{
+        /* padding-bottom: 35px; */
+        border: 10px solid #fff;
+        margin-bottom: 40px;
+        box-shadow: 2px 8px 31px 1px rgba(0,0,0,0.5);
+    }
+}
+
+.read-more-btn{
+    a {
+        color:  #fff;
+        background:  #6b6b6b;
+        padding:  7px 14px;
+        display:  inline-block;
+        border-radius: 3px;
+        margin-top: 9px;
+        text-decoration: none;
+    }
+}
+.email-btn{
+    a{
+        color:  #fff;
+        background:  #6b6b6b;
+        padding:  10px 20px;
+        border-radius: 3px;
+        margin-top: 9px;
+        display: inline-block;
+        text-decoration: none;
+    }
+}
+
+.banner-area{
+    background: #d9d9d9;
+}
+.banner-bg{
+    background: url(../img/banner-bg.jpg) no-repeat scroll center center/cover;
+    position: relative;
+    z-index: 1;
+}
+.banner-bg:before {
+    content: "";
+    position:  absolute;
+    top:  0;
+    left:  0;
+    height:  100%;
+    width:  100%;
+    background:  #000;
+    opacity: 0.5;
+    z-index: -1;
+}
+.banner-text{
+    p{
+        margin: 0;
+        color: cornflowerblue;
+        /* display: flex; */
+        font-size: 30px;
+        margin-left: 32px;
+    }
+}
+
+.banner-content {
+    min-height: 400px;
+}
+
+.banner-text {
+    display:  flex;
+    flex-direction:  column;
+    justify-content:  center;
+    /* height: 100vh; */
+    min-height: 400px;
+}
+.section-padding{
+    padding-top: 33px;
+    padding-bottom: 43px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: $heading-color;
+    text-transform: uppercase;
+}
+
+.footer-area{
+    padding: 20px 0;
+    background: $primary-bg;
+}
+
+p{
+    color: $heading-color; 
+    font-size: $primary-fz; 
+}
+.promise-bottom h6 {
+    text-align: right;
+}
+
+.promise-area-right {
+    padding-left: 34px;
+}
+
+.border-right {
+    border-right: 1px dotted #fff;
+    /* padding-left: 3px; */
+}
+
+.copyright p {
+    text-align: right;
+    color: #fff;
+}
+
+.footer-links {
+    a{
+        color:  #ddd;
+        background:  #000;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        text-align:  center;
+        border-radius: 5px;
+        line-height:  28px;
+    }
+}
